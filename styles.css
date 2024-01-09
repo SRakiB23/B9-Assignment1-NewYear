@@ -1,21 +1,15 @@
 body {
-  /* margin-top: 40;
-  padding: 10px;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 1080px;
-  background-color: #fff; */
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 1320px;
+  margin: auto;
+  margin-top: 20px;
+  background: #fff;
+  font-family: "Helvetica", "sans-serif";
 }
 
 .banner {
   position: relative;
   height: 600px;
   border-radius: 16px;
-  overflow: hidden;
 }
 
 .background-image {
@@ -40,7 +34,6 @@ body {
 
 #banner-text1 {
   color: #e4dfdf;
-  font-family: Arial, sans-serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
@@ -48,7 +41,6 @@ body {
 
 #banner-text2 {
   color: #fff;
-  font-family: Arial, sans-serif;
   font-size: 52px;
   font-style: normal;
   font-weight: 700;
@@ -65,7 +57,6 @@ body {
 #off {
   margin-top: 80px;
   color: rgb(230, 6, 6);
-  font-family: "Helvetica", "sans-serif";
   font-size: 80px;
   font-style: normal;
   font-weight: 600;
@@ -73,14 +64,12 @@ body {
 
 #deal {
   color: rgb(255, 2, 2);
-  font-family: "Helvetica", "sans-serif";
   font-size: 26px;
   font-weight: 500;
 }
 
 #category {
   color: #05000e;
-  font-family: "Helvetica", "sans-serif";
   font-size: 45px;
   font-weight: 700;
 }
@@ -127,7 +116,6 @@ body {
 
 #welcome-text {
   color: #fcf9f9;
-  font-family: "Helvetica", "sans-serif";
   font-size: 60px;
   font-weight: 700;
   margin: 0;
@@ -136,7 +124,6 @@ body {
 .join-now {
   color: #fff;
   text-align: left;
-  font-family: "Helvetica", "sans-serif";
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
@@ -166,8 +153,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 290px;
-  width: 1200px;
   border-style: solid;
   border-color: #fcf9f9;
 }
@@ -229,9 +214,10 @@ body {
 .images {
   display: grid;
   grid-template-columns: auto auto auto;
-  padding: 10px;
+  padding: 20px;
   border: 1px solid rgba(255, 255, 255, 0.8);
   justify-content: center;
+  align-items: center;
 }
 
 .image-items {
@@ -242,7 +228,7 @@ body {
 .subscribe {
   background: rgba(255, 0, 0, 0.05);
   border-radius: 15px;
-  padding: 60px;
+  padding: 40px;
 }
 
 .background-image3 {
@@ -301,45 +287,51 @@ footer {
   background: #070211;
   color: white;
   padding: 20px;
-  margin-bottom: 20px;
+}
+
+.all {
+  display: flex;
+  justify-content: space-around;
 }
 
 .address {
-  text-align: left;
-  margin-bottom: 10px;
-  float: left;
+  padding-top: 10px;
 }
 
 .contact {
-  text-align: right;
-  float: right;
-  margin-bottom: 10px;
+  padding-top: 10px;
+}
+
+.phone-logo {
+  padding-top: 10px;
+}
+
+.website-logo {
+  padding-top: 10px;
 }
 
 hr {
-  margin-top: 80px;
+  margin-top: 50px;
   border: 1px solid #ddd;
 }
 
 .logo-section {
+  margin-top: 50px;
   text-align: center;
-  margin-bottom: 10px;
 }
 
 .logo {
   margin: 10px;
-  max-width: 50px;
+  max-width: 80px;
   justify-content: center;
 }
 
 .rights {
   text-align: left;
-  float: left;
-  margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 .unsubscribe {
   text-align: right;
-  float: right;
-  margin-bottom: 20px;
+  margin-right: 20px;
 }
