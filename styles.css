@@ -1,0 +1,143 @@
+body {
+  margin-top: 40;
+  padding: 10px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 1080px;
+  background-color: #fff;
+}
+
+.banner {
+  position: relative;
+  width: 1320px;
+  height: 600px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  background-image: url("/resources/Banner Image.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  display: flex;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #07021180;
+  border-radius: 16px;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+#banner-text1 {
+  color: #e4dfdf;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+#banner-text2 {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+#off,
+#deal,
+#category {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#off {
+  color: rgb(230, 6, 6);
+  font-family: "Helvetica", "sans-serif";
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+#deal {
+  color: rgb(255, 2, 2);
+  font-family: "Helvetica", "sans-serif";
+  font-size: 26px;
+  font-weight: 500;
+}
+
+#category {
+  color: #05000e;
+  font-family: "Helvetica", "sans-serif";
+  font-size: 45px;
+  font-weight: 700;
+}
+
+#new-year-img {
+  height: auto;
+  width: auto;
+}
+
+.welcome {
+  position: relative;
+  width: 1320px;
+  height: 600px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.background-image1 {
+  width: 100%;
+  height: 100%;
+  background-image: url("/resources/Vectorrr.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.right-image {
+  display: flex;
+  width: 319.83px;
+  height: 464.662px;
+  padding: 0.008px 0px 0px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.text-welcome {
+  max-width: 50%;
+  color: white;
+}
+
+#welcome-text {
+  color: #fcf9f9;
+  font-family: "Helvetica", "sans-serif";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+}
